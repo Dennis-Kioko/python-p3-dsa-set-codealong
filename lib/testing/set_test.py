@@ -47,7 +47,7 @@ class TestSet:
         test_set.clear()
         assert(len(test_set.dictionary) == 0)
 
-    # def test_str(self):
-    #     '''Test __str__()'''
-    #     test_set = MySet([1,2,3,4])
-    #     assert(str(test_set) == 'MySet: {1,2,3,4}')
+    def test_str(self):
+        '''Test __str__()'''
+        test_set = MySet([1,2,3,4])
+        assert(str(test_set) == 'MySet: {1,2,3,4}')
